@@ -18,7 +18,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p project
-          unzip -q HueControl-v4-Project.zip -d project
+          unzip -q HueControl-v5-Project.zip -d project
           echo "Extracted project files:"
           ls -la project
 
