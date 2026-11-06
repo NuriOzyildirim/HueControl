@@ -18,7 +18,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p project
-          unzip -q HueControl-v7-Project.zip -d project
+          unzip -q HueControl-v8-Project.zip -d project
           echo "Extracted project files:"
           ls -la project
 
@@ -44,6 +44,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: HueControl-v2-APK
+          name: HueControl-v8-APK
           path: project/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
