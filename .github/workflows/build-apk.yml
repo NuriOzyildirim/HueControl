@@ -18,7 +18,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p project
-          unzip -q HueControl-v12.1-Thermostat-UI-Scroll.zip -d project
+          unzip -q HueControl-v12.2.1-Widget-Crash-Fix.zip -d project
           echo "Extracted project files:"
           ls -la project
 
